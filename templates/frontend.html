@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EECS 780 List Application</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="static/style.css" type="text/css" />
+  </head>
+  <body>
+    <div id="listbox"></div>
+    <form id="listinput" onsubmit="DispatchText()" action="javascript:void(0);">
+      <input type="text" id="message" name="message" autocomplete="off" />
+      <input type="submit" id="sub" name="sub" value="Send" style="width:90px"/>
+    </form>
+    <script src="static/sockets.js" type="text/javascript"></script>
+  </body>
+
+</html>

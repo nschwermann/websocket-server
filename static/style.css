@@ -1,0 +1,43 @@
+html, body {
+  margin: 0;
+  background-color: #cccccc;
+  height: 100%;
+  width: 100%;
+}
+
+#listbox {
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  height: 85%;
+  width: 50%;
+  overflow: scroll;
+  border: medium solid #000000;
+}
+
+div.item {
+  height: auto;
+  overflow: auto;
+  padding-top: 15px;
+  padding-left: 5px;
+  border-bottom: thin dashed #cccccc;
+}
+
+span.actualtext {
+  margin: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a.trash {
+  float: right;
+}
+
+#listinput {
+    margin-left: 25%;
+    width: 100%;
+}
+
+input#message {
+    margin-right: 3%;
+    width: 40%; 
+}

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Socket Status</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  </head>
+  <body>
+    <h1>Connected Clients</h1>
+    {% for socket in sockets %}
+    <p> IP:{{ socket.request.remote_ip }} <span style="margin: 25px;"/> Connected:{{ int(socket.request.request_time()/60) }} minutes </p>
+    {% end %}
+  </body>
+</html>
